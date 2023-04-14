@@ -15,3 +15,4 @@ use App\Http\Controllers\CityController;
 */
 
 Route::get('/',[CityController::class, 'index'], function () {});
+
