@@ -14,4 +14,4 @@ use App\Http\Controllers\CityController;
 |
 */
 
-Route::get('/',[CityConroller::class, 'index'], function () {});
+Route::get('/',[CityController::class, 'index'], function () {});
